@@ -1,2 +1,2 @@
-# SecMI
-Are Diffusion Models Vulnerable to Membership Inference Attacks? 
+# Are Diffusion Models Vulnerable to Membership Inference Attacks? 
+Code is coming ......
