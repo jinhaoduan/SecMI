@@ -1,7 +1,8 @@
-## Are Diffusion Models Vulnerable to Membership Inference Attacks? [ICML23]
+## Are Diffusion Models Vulnerable to Membership Inference Attacks? [ICML 2023]
+[arXiv](https://arxiv.org/abs/2302.01316)
 
-This is the official implementation of paper "Are Diffusion Models Vulnerable to Membership Inference Attacks?".
-The proposed Step-wise Error Comparing Membership Inference (SecMI) is implementated in this codebase.
+This is the official implementation of the paper "Are Diffusion Models Vulnerable to Membership Inference Attacks?".
+The proposed Step-wise Error Comparing Membership Inference (SecMI) is implemented in this codebase.
 
 ### Model Training
 This codebase is built on top of [pytorch-ddpm](https://github.com/w86763777/pytorch-ddpm). 
@@ -10,7 +11,7 @@ Please follow its instructions for model training. You can also run the followin
 python main.py --train --logdir ./experiments/CIFAR10 \
 --dataset CIFAR10 --img_size 32 --batch_size 128 --fid_cache ./stats/cifar10.train.npz --total_steps 800001
 ```
-By defaults, it will load the splittings stored in `mia_evals/member_splits` and train DDPMs over half training split. 
+By default, it will load the splittings stored in `mia_evals/member_splits` and train DDPMs over half training split. 
 You can specify `--dataset` and `--total_steps` as you want. 
 
 ### Pre-trained model
