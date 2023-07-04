@@ -508,8 +508,8 @@ def nn_eval(model, data_loader, device='cuda'):
 if __name__ == '__main__':
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('--model_dir', type=str, default='../experiments/CIFAR10')
-    parser.add_argument('--data_root', type=str, default='/home/jd3734@drexel.edu/datasets')
+    parser.add_argument('--model_dir', type=str, default='experiments/CIFAR10')
+    parser.add_argument('--data_root', type=str, default='datasets')
     parser.add_argument('--dataset', type=str, default='cifar10')
     parser.add_argument('--device', type=bool, default='cuda')
     parser.add_argument('--t_sec', type=bool, default=100)
