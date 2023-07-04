@@ -6,7 +6,7 @@ The proposed Step-wise Error Comparing Membership Inference (SecMI) is implement
 
 ### Model Training
 This codebase is built on top of [pytorch-ddpm](https://github.com/w86763777/pytorch-ddpm). 
-Please follow its instructions for model training. You can also run the following commands (or refer to `train.sh`).
+Please follow its instructions for model training. You can also run the following commands (or refer to `train.sh`):
 ```shell
 python main.py --train --logdir ./experiments/CIFAR10 \
 --dataset CIFAR10 --img_size 32 --batch_size 128 --fid_cache ./stats/cifar10.train.npz --total_steps 800001
@@ -20,9 +20,7 @@ Some pre-trained models can be downloaded from [here](https://drexel0-my.sharepo
 
 ### Run SecMI
 
-To execute SecMI over pretrained DDPM, please
-
-```cd DiffusionMIA/mia_evals```
+To execute SecMI over pretrained DDPM, please execute the following command:
 
 ```python secmia.py --model_dir /path/to/model_dir --dataset_root /path/to/dataset --dataset cifar10 --t_sec 100 --k 10```
 
