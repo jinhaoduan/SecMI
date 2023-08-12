@@ -37,7 +37,7 @@ Please cite our paper if you feel this is helpful:
 @article{duan2023diffusion,
   title={Are diffusion models vulnerable to membership inference attacks?},
   author={Duan, Jinhao and Kong, Fei and Wang, Shiqi and Shi, Xiaoshuang and Xu, Kaidi},
-  journal={arXiv preprint arXiv:2302.01316},
+  journal={International Conference on Machine Learning},
   year={2023}
 }
 ```
