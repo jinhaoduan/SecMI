@@ -34,10 +34,11 @@ parameters:
 
 Please cite our paper if you feel this is helpful:
 ```
-@article{duan2023diffusion,
-  title={Are diffusion models vulnerable to membership inference attacks?},
-  author={Duan, Jinhao and Kong, Fei and Wang, Shiqi and Shi, Xiaoshuang and Xu, Kaidi},
-  journal={International Conference on Machine Learning},
-  year={2023}
+@InProceedings{duan2023are,
+  title = {Are Diffusion Models Vulnerable to Membership Inference Attacks?},
+  author = {Duan, Jinhao and Kong, Fei and Wang, Shiqi and Shi, Xiaoshuang and Xu, Kaidi},
+  booktitle = {Proceedings of the 40th International Conference on Machine Learning},
+  pages = {8717--8730},
+  year = {2023}
 }
 ```
