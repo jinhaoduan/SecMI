@@ -4,7 +4,7 @@
 This is the official implementation of the paper "Are Diffusion Models Vulnerable to Membership Inference Attacks?".
 The proposed Step-wise Error Comparing Membership Inference (SecMI) is implemented in this codebase.
 
-**[3/4/2024]** We have released [SecMI-LDM](https://github.com/jinhaoduan/SecMI-LDM): SecMI on Latent Diffusion Models. Since SecMI requires intermediate results, we modified the original diffuser and put all the data/checkpoints in a new repo.
+**[3/4/2024]** We have released [SecMI-LDM](https://github.com/jinhaoduan/SecMI-LDM): SecMI on Latent Diffusion Models. Since SecMI requires intermediate results, we modified the original diffuser and put all the data/checkpoints in another repo.
 
 ### Model Training
 This codebase is built on top of [pytorch-ddpm](https://github.com/w86763777/pytorch-ddpm). 
